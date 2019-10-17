@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/buram"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/atas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="handleSiswa"
+                android:text="UTS MANIA"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/siswa"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.467"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/siswa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="handleSiswa"
+                android:text="Siswa" />
+
+            <Button
+                android:id="@+id/guru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Guru" />
+
+            <Button
+                android:id="@+id/mapel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Mapel" />
+
+            <Button
+                android:id="@+id/satu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Kepsek" />
+
+            <Button
+                android:id="@+id/dua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Wakasek" />
+
+            <Button
+                android:id="@+id/tiga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Office Boy" />
+
+            <Button
+                android:id="@+id/empat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Dpr" />
+
+            <Button
+                android:id="@+id/lima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="sobat gurun" />
+
+            <Button
+                android:id="@+id/enam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="KPI" />
+
+            <Button
+                android:id="@+id/tujuh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="satpam" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
